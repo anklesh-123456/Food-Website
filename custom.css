@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero-image{
+    background: url(background.jpg) no-repeat no-repeat ;
+    height: 60vh;
+    position: relative;
+}
+.hero-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero-wrapper h1{
+    font-size: 2.4rem;
+    text-align: center;
+    color: white;
+}
+.hero-wrapper p{
+    color: white;
+}
+.form_code input{
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 2rem;
+    padding: 0.6rem;
+    border: none;
+    outline: none;
+}
+.btn{
+    margin-top: 20px;
+     padding: 5px;
+    width: 20%;
+    display: inline-block;
+    margin-left: 240px;
+    border-radius: 9px;
+    text-align: center;
+    background-color: orangered;
+    color: white;
+cursor: pointer;
+}
+#product{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.food_img{
+ display: table-cell;
+
+}
+.food_img img{
+    margin-top: 30px;
+    width: 200px;
+    display: inline-block;
+    
+}
+#product h2{
+    padding: 5px;
+margin: 12px;
+}
+#product p{
+
+}
